@@ -5,7 +5,7 @@
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Mnuralim/swisstronik-deploy-private-nft.git
+git clone https://https://github.com/seputartestnet/Swisstronik_PrivateNFT
 ```
 ```bash
 cd swisstronik-deploy-private-nft
@@ -49,7 +49,7 @@ contract PrivateNFT is ERC721, Ownable {
     event NFTMinted(address recipient, uint256 tokenId);
     event NFTBurned(uint256 tokenId);
 
-    constructor(address initialOwner) ERC721("IzzyPrivate", "IZZPRVT") Ownable(initialOwner) {}
+    constructor(address initialOwner) ERC721("Percobaan", "PRC") Ownable(initialOwner) {}
 
     function mintNFT(address recipient) public onlyOwner returns (uint256) {
         _currentTokenId += 1;
