@@ -49,7 +49,7 @@ contract PrivateNFT is ERC721, Ownable {
     event NFTMinted(address recipient, uint256 tokenId);
     event NFTBurned(uint256 tokenId);
 
-    constructor(address initialOwner) ERC721("Percobaan", "PRC") Ownable(initialOwner) {}
+    constructor(address initialOwner) ERC721("PercobaanPrivate", "PRCPRVT") Ownable(initialOwner) {}
 
     function mintNFT(address recipient) public onlyOwner returns (uint256) {
         _currentTokenId += 1;
@@ -107,7 +107,7 @@ git init
 git add .
 ```
 ```bash
-git remote set-url origin your_repo_link
+git remote set-url origin ( Link Repository )
 ```
 ```bash
 git branch -M main
