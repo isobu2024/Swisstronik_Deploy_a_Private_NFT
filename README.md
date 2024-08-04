@@ -5,7 +5,7 @@
 ### 1. Clone Repository
 
 ```bash
-git clone https://https://github.com/seputartestnet/Swisstronik_PrivateNFT
+git clone https://github.com/shukakuairdrop/Swisstronik_Deploy_a_Private_NFT
 ```
 ```bash
 cd swisstronik-deploy-private-nft
